@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
             name='Task',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=40)),
+                ('text', models.CharField(max_length=40)),
                 ('complete', models.BooleanField(default=False)),
             ],
         ),
