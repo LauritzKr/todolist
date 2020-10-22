@@ -6,7 +6,10 @@ class TaskForm(forms.Form):
         max_length=40,
         widget=forms.TextInput(
             attrs={
-                'placeholder': 'What do you want to do today?',
+                'class': 'form-control', 
+                'placeholder': 'What do you wanna do today?', 
+                'aria-label': 'Todo', 
+                'aria-describedby': 'add-btn'
             }
         )
     )
