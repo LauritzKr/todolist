@@ -1,0 +1,57 @@
+/* Background Image */
+
+body {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* Main Container/Wrapper */
+
+#wrapper {
+    background: white;
+    width: 40rem;
+    padding: 2rem;
+    margin: 3rem auto;
+}
+
+
+/* Heading */
+
+h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+/* No underlined links */
+
+.nounderline {
+    text-decoration: none !important
+}
+
+
+/* List of Tasks */
+
+.list-group {
+    margin: 1rem 0;
+}
+
+.list-group-item {
+    color: black;
+    margin: 0.25rem 0;
+}
+
+.task-completed {
+    text-decoration: line-through;
+    background: lightgrey;
+}
+
+
+/* Footer */
+
+#footer {
+    margin-top: 2rem;
+}
