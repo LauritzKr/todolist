@@ -20,6 +20,12 @@ def add_task(request):
 
     return redirect('index')
 
+def undo_task(request, task_id):
+    completed_task = Task.objects.get(id=task_id)
+    completed_task.complete = False
+    completed_task.save()
+
+    return redirect('index')
 
 def cmpl_task(request, task_id):
     completed_task = Task.objects.get(id=task_id)
