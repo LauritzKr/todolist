@@ -1,23 +1,24 @@
 /* General CSS */
 
 body {
-    background: rgba(44, 62, 80, .8);
     font-family: 'Oswald', 'Futura', sans-serif;
 }
 
 #wrapper {
-    margin-top: 10% !important;
+    color: white;
 }
 
 #content {
-    background: beige;
+    background: #4e89ae;
     padding: 25px;
+    margin: 0 30%;
 }
 
-#content>h2 {
-    font-size: 18px;
+#content>h1 {
+    font-size: 24px;
     text-align: center;
     padding-top: 0;
+    margin-bottom: 2rem;
 }
 
 

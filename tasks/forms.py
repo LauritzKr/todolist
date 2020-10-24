@@ -7,9 +7,7 @@ class TaskForm(forms.Form):
         widget=forms.TextInput(
             attrs={
                 'class': 'form-control', 
-                'placeholder': 'What do you wanna do today?', 
-                'aria-label': 'Todo', 
-                'aria-describedby': 'add-btn'
+                'placeholder': 'Enter a todo task here, e.g. take out trash . . .', 
             }
         )
     )
